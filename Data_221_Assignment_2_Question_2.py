@@ -1,6 +1,6 @@
 #Just over half of this script is going to be the same as question 1
 #The starting process isn't going to change
-PUNCTUATION = "?!/#@$%,.;:'`"
+PUNCTUATION = "?!/#@$%,.;:'`-"
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 modified_tokens_from_text_file = []
 tuples_of_bigrams = []

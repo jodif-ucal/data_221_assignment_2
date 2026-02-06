@@ -1,5 +1,5 @@
 #Variables in capitals are meant to be constant---their values will not change
-PUNCTUATION = "?!/#@$%,.;:'`"
+PUNCTUATION = "?!/#@$%,.;:'`-"
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 modified_tokens_from_text_file = []
 dicts_of_modified_tokens_from_text_file = []
