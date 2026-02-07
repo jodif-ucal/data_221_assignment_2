@@ -50,13 +50,10 @@ high_category = {
     ) * 100
 }
 
-#Saving all the previous dictionaries into the final DataFrame
+# Saving all the previous dictionaries into the final DataFrame
 student_bands_data_frame = pd.DataFrame(
-    {
-        "Low grade band": low_category,
-        "Medium grade band": medium_category,
-        "High grade band": high_category
-    }
+    [low_category, medium_category, high_category],
+    index=["Low grade band", "Medium grade band", "High grade band"]
 )
 
 #Saving the data frame into the csv file
