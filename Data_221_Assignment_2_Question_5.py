@@ -47,9 +47,9 @@ high_category = {
 
 student_bands_data_frame = pd.DataFrame(
     {
-        "Low grade bound": low_category,
-        "Medium grade bound": medium_category,
-        "High grade bound": high_category
+        "Low grade band": low_category,
+        "Medium grade band": medium_category,
+        "High grade band": high_category
     }
 )
 
