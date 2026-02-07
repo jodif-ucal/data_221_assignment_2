@@ -1,13 +1,17 @@
 import pandas as pd
 
+#Loading data
 with open("csv_and_txt_files/student.csv", "r") as csv_file:
     students_data = pd.DataFrame(pd.read_csv(csv_file))
 
+#Creating the new grade_band column and setting the values for each student based on their grade
 students_data.loc[students_data["grade"] <= 9, "grade_band"] = "low"
 students_data.loc[(students_data["grade"] < 15) & (students_data["grade"] > 9), "grade_band"] = "medium"
 students_data.loc[students_data["grade"] >= 15, "grade_band"] = "high"
 
+#Creating the dictionaries that will be used as columns with their data for the final DataFrame
 
+#The dictionary for the low grade band
 low_category = {
     "number of students": len(students_data.loc[students_data["grade_band"] == "low"]),
     "average absences": float(
@@ -20,7 +24,7 @@ low_category = {
     ) * 100
 }
 
-
+#The dictionary for the medium grade band
 medium_category = {
     "number of students": len(students_data.loc[students_data["grade_band"] == "medium"]),
     "average absences": float(
@@ -33,6 +37,7 @@ medium_category = {
     ) * 100
 }
 
+#The dictionary for the high grade band
 high_category = {
     "number of students": len(students_data.loc[students_data["grade_band"] == "high"]),
     "average absences": float(
@@ -45,6 +50,7 @@ high_category = {
     ) * 100
 }
 
+#Saving all the previous dictionaries into the final DataFrame
 student_bands_data_frame = pd.DataFrame(
     {
         "Low grade band": low_category,
@@ -53,4 +59,5 @@ student_bands_data_frame = pd.DataFrame(
     }
 )
 
+#Saving the data frame into the csv file
 student_bands_data_frame.to_csv("csv_and_txt_files/student_bands.csv")
