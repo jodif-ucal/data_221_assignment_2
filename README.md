@@ -1,0 +1,10 @@
+Question 1: Takes all the tokens from sample.txt, puts it in to an understandable format (uncapitalised, no punctuation etc) and finds how frequent each token appears in the text file, printing the most common 10\
+Question 2: Does the same as question 1, but finds the most common pairs of tokens instead\
+Question 3: Finds the lines in the sample.txt file that are nearly identical (they are nearly identical when they are the same when there are no whitespaces and no punctuation)\
+Question 4: Pulls a record of each student in the student.csv file, finds and prints the students with over 3 hours of studytime, around 1 hour of internet time and less than 5 absences. This data is saved into high_engagement.csv\
+Question 5: Takes the same csv file and separates all the students into 3 categories: a low grade band, a medium grade band and a high grade band. The average absences of each student as well as the percentage of those with internet access is calculated per group. This data is saved into student_bands.csv\
+Question 6: Takes the data from crime.csv, separates the regions present in the csv file by the amount of violent crimes per population (high if greater than or equal to 0.5, low otherwise) and calculates the average unemployment rate for each category\
+Question 7: Scrapes the first paragraph of the Data Science page on wikipedia and prints it\
+Question 8: Scrapes the header of each paragraph on the same page and saves them into the headings.txt file\
+Question 9: Scrapes the first table on the Machine Learning website on wikipedia, takes each row and its subcategories, and stores it in wiki_table.csv\
+Question 10: The function find_lines_containing takes a file and a keyword and finds the amount of lines the keyword appears in, regardless of case sensitivity. The rest of the programs attempts this on sample-file.txt with the word lorem
