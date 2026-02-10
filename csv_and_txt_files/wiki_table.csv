@@ -1,0 +1,15 @@
+Machine learningand data mining,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27
+Paradigms,Supervised learning,Unsupervised learning,Semi-supervised learning,Self-supervised learning,Reinforcement learning,Meta-learning,Online learning,Batch learning,Curriculum learning,Rule-based learning,Neuro-symbolic AI,Neuromorphic engineering,Quantum machine learning,,,,,,,,,,,,,,
+Problems,Classification,Generative modeling,Regression,Clustering,Dimensionality reduction,Density estimation,Anomaly detection,Data cleaning,AutoML,Association rules,Semantic analysis,Structured prediction,Feature engineering,Feature learning,Learning to rank,Grammar induction,Ontology learning,Multimodal learning,,,,,,,,,
+Supervised learning(classification • regression) ,Apprenticeship learning,Decision trees,Ensembles Bagging Boosting Random forest,Bagging,Boosting,Random forest,k-NN,Linear regression,Naive Bayes,Artificial neural networks,Logistic regression,Perceptron,Relevance vector machine (RVM),Support vector machine (SVM),,,,,,,,,,,,,
+Clustering,BIRCH,CURE,Hierarchical,k-means,Fuzzy,Expectation–maximization (EM),DBSCAN,OPTICS,Mean shift,,,,,,,,,,,,,,,,,,
+Dimensionality reduction,Factor analysis,CCA,ICA,LDA,NMF,PCA,PGD,t-SNE,SDL,,,,,,,,,,,,,,,,,,
+Structured prediction,Graphical models Bayes net Conditional random field Hidden Markov,Bayes net,Conditional random field,Hidden Markov,,,,,,,,,,,,,,,,,,,,,,,
+Anomaly detection,RANSAC,k-NN,Local outlier factor,Isolation forest,,,,,,,,,,,,,,,,,,,,,,,
+Neural networks,Autoencoder,Deep learning,Feedforward neural network,Recurrent neural network LSTM GRU ESN reservoir computing,LSTM,GRU,ESN,reservoir computing,Boltzmann machine Restricted,Restricted,GAN,Diffusion model,SOM,Convolutional neural network U-Net LeNet AlexNet DeepDream,U-Net,LeNet,AlexNet,DeepDream,Neural field Neural radiance field Physics-informed neural networks,Neural radiance field,Physics-informed neural networks,Transformer Vision,Vision,Mamba,Spiking neural network,Memtransistor,Electrochemical RAM (ECRAM)
+Reinforcement learning,Q-learning,Policy gradient,SARSA,Temporal difference (TD),Multi-agent Self-play,Self-play,,,,,,,,,,,,,,,,,,,,,
+Learning with humans,Active learning,Crowdsourcing,Human-in-the-loop,Mechanistic interpretability,RLHF,,,,,,,,,,,,,,,,,,,,,,
+Model diagnostics,Coefficient of determination,Confusion matrix,Learning curve,ROC curve,,,,,,,,,,,,,,,,,,,,,,,
+Mathematical foundations,Kernel machines,Bias–variance tradeoff,Computational learning theory,Empirical risk minimization,Occam learning,PAC learning,Statistical learning,VC theory,Topological deep learning,,,,,,,,,,,,,,,,,,
+Journals and conferences,AAAI,ECML PKDD,NeurIPS,ICML,ICLR,IJCAI,ML,JMLR,,,,,,,,,,,,,,,,,,,
+Related articles,Glossary of artificial intelligence,List of datasets for machine-learning research List of datasets in computer vision and image processing,List of datasets in computer vision and image processing,Outline of machine learning,,,,,,,,,,,,,,,,,,,,,,,
